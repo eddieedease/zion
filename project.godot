@@ -17,7 +17,15 @@ _global_script_class_icons={
 
 config/name="Zion"
 run/main_scene="res://scenes/Main.tscn"
+boot_splash/image="res://src/boot.png"
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/stretch/mode="2d"
 
 [rendering]
 
